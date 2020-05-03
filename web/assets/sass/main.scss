@@ -16,7 +16,7 @@ $size-header-pad: 4em;
 // Breakpoints.
 
 	@include breakpoints((
-		xlarge:  ( 1281px,  1800px ),
+		// xlarge:  ( 1281px,  1800px ),
 		large:   ( 981px,   1280px ),
 		medium:  ( 737px,   980px  ),
 		small:   ( 481px,   736px  ),
@@ -122,7 +122,7 @@ $size-header-pad: 4em;
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: _font(weight);
 		line-height: 1.75em;
 	}
@@ -178,8 +178,9 @@ $size-header-pad: 4em;
 	}
 
 	h3 {
-		font-size: 2em;
-		line-height: 2.5em;
+		font-size: 1.8em;
+		line-height: 1.8em;
+		color: #555555;
 	}
 
 	h4 {
@@ -310,9 +311,9 @@ $size-header-pad: 4em;
 	.row {
 		@include html-grid(2.5em);
 
-		@include breakpoint('<=xlarge') {
-			@include html-grid(2.5em, 'xlarge');
-		}
+		// @include breakpoint('<=xlarge') {
+		// 	@include html-grid(2.5em, 'xlarge');
+		// }
 
 		@include breakpoint('<=large') {
 			@include html-grid(2em, 'large');
@@ -1353,7 +1354,7 @@ $size-header-pad: 4em;
 
 /* XLarge */
 
-	@include breakpoint('<=xlarge') {
+	@include breakpoint('<=large') {
 
 		/* Basic */
 
