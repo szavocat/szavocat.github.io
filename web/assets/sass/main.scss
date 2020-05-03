@@ -9,8 +9,10 @@
 $size-header-width: 35%;
 $size-header-pad: 4em;
 
+
+
 .logo {
-	width: 100px;
+	width: 200px;
 }
 
 // Breakpoints.
@@ -151,6 +153,7 @@ $size-header-pad: 4em;
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -173,12 +176,12 @@ $size-header-pad: 4em;
 
 	h2 {
 		text-transform: uppercase;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.8em;
+		font-size: 1.6em;
 		line-height: 1.8em;
 		color: #555555;
 	}
@@ -760,6 +763,16 @@ $size-header-pad: 4em;
 		}
 	}
 
+	.contact-help {
+
+		color:gray;
+		padding:1em;
+		background-color: rgba(228, 228, 228, 0.445);
+		margin-bottom:3em;
+		margin-left:2.5em;
+		margin-top:1em;
+	}
+
 /* Labeled Icons */
 
 	ul.labeled-icons {
@@ -768,7 +781,7 @@ $size-header-pad: 4em;
 
 		li {
 			line-height: 1.75em;
-			margin: 1.5em 0 0 0;
+			margin: 0.5em 0 0 0;
 			padding-left: 2.25em;
 			position: relative;
 
@@ -1439,6 +1452,10 @@ $size-header-pad: 4em;
 						}
 					}
 				}
+			}
+
+			.head {
+				text-align:center;
 			}
 
 		/* Header */
