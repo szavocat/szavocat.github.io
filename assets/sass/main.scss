@@ -156,6 +156,10 @@ $size-header-pad: 4em;
 		text-align: justify;
 	}
 
+	ul {
+		text-align: justify;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		// text-transform: uppercase;
 		color: _palette(fg-bold);
