@@ -123,12 +123,12 @@ em, i {
   font-style: italic;
 }
 
-p {
+#main p {
   margin: 0 0 1em 0;
   text-align: justify;
 }
 
-ul {
+#main ul {
   text-align: justify;
 }
 

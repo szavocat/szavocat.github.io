@@ -151,15 +151,17 @@ $size-header-pad: 4em;
 		font-style: italic;
 	}
 
-	p {
-		margin: 0 0 _size(element-margin) 0;
-		text-align: justify;
-	}
+	#main {
 
-	ul {
-		text-align: justify;
-	}
+		p {
+			margin: 0 0 _size(element-margin) 0;
+			text-align: justify;
+		}
 
+		ul {
+			text-align: justify;
+		}
+	}
 	h1, h2, h3, h4, h5, h6 {
 		// text-transform: uppercase;
 		color: _palette(fg-bold);
@@ -1139,6 +1141,7 @@ $size-header-pad: 4em;
 /* Footer */
 
 	#footer {
+		
 		.icons {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
